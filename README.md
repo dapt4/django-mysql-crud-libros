@@ -14,7 +14,7 @@ then install requeriments
 
 install postgresql, login and create the database
 
-`CREATE DATABASE airportapp;`
+`CREATE DATABASE <your db name>;`
 
 create a .env file in the root folder
 
@@ -23,7 +23,7 @@ create a .env file in the root folder
 and add your postgresql credentials and the app SECRET_KEY to .env file
 
 >ENV_SECRET_KEY="{add a secret key like bhajfbkjhawbdkjhabdjh}"\
-ENV_NAME='airportapp'\
+ENV_NAME='{your db name}'\
 ENV_HOST='{your host or localhost}'\
 ENV_PORT='{your db port or 5432}'\
 ENV_USER='{your db user}'\
